@@ -1,0 +1,21 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Original external datasets are not redistributed
+data/movies_metadata.csv
+data/ratings*.csv
+data/credits.csv
+data/keywords.csv
+data/links*.csv
+
+outputs/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+desktop.ini
